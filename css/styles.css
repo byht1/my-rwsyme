@@ -1,0 +1,247 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* main_content_section */
+.main_content_section {
+  padding: 100px 90px;
+}
+
+.about_me {
+  margin-bottom: 40px;
+}
+
+.tim {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.description {
+  width: 400px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* Проекти */
+.my_projects {
+  margin-bottom: 50px;
+}
+
+.my_projects_list {
+  padding: 0 0 0 17px;
+}
+
+.my_projects_item {
+  color: #000;
+  font-weight: bold;
+}
+
+.my_project_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my_projects_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+.my_project_bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+
+.Projects {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* my_work_experience*/
+.my_work_experience_company {
+  color: #fb6d3a;
+}
+
+.my_work_experience {
+}
+
+.my_work_experience_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.my_work_experience_time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.my_project_b {
+  color: #000;
+}
+
+.my_work_experience_duties {
+  padding: 0 0 0 18px;
+}
+
+.my_work_experience_dute {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my_work_experience_company_blok {
+  margin: 0 15px 0 0;
+}
+
+/* Сайт бар */
+.sibedar {
+  background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0px;
+}
+
+.contacts {
+  margin: 50px 0 0 40px;
+}
+
+.tech_skills {
+  margin: 50px 0 0 40px;
+}
+
+.zagolovok {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* контакти */
+.sulka {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8e949c;
+}
+
+.bykva {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Tech Skills */
+.tech_skills_list {
+  padding: 0 0 0 17px;
+}
+
+.HTML5 {
+  color: #fb6d3a;
+}
+
+.HTMLS_stils {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Soft Skills */
+.soft_skills {
+  margin: 50px 0 0 40px;
+}
+
+.soft_skills_list {
+  padding: 0 0 0 17px;
+}
+
+.scrum {
+  color: #fb6d3a;
+}
+
+.scrum_stils {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* мої */
+.company {
+  margin-bottom: 45px;
+}
+
+.my_education_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.Management {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 10px;
+}
