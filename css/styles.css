@@ -3,10 +3,17 @@ body {
   background-color: #f5f7fa;
 }
 
+.photo {
+  width: 370px;
+  height: 354px;
+  object-fit: cover;
+  object-position: top;
+}
+
 .main_content {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1000px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
