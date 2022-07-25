@@ -4,7 +4,7 @@ body {
 }
 
 .photo {
-  width: 370px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
   object-position: top;
@@ -12,8 +12,8 @@ body {
 
 .main_content {
   display: flex;
-  flex-direction: row-reverse;
-  width: 1000px;
+  flex-direction: column-reverse;
+  width: 100%;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ body {
 
 /* main_content_section */
 .main_content_section {
-  padding: 100px 90px;
+  padding: 20px;
 }
 
 .about_me {
@@ -47,7 +47,7 @@ body {
 }
 
 .description {
-  width: 400px;
+  width: 100%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -256,4 +256,52 @@ body {
 .svg-icon {
   margin-right: 5px;
   fill: currentColor;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .sibedar {
+    width: 350px;
+  }
+
+  .photo {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main_content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 768px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .main_content_section {
+    padding: 20px;
+  }
+
+  .photo {
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main_content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1000px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .main_content_section {
+    padding: 100px 90px;
+  }
 }
